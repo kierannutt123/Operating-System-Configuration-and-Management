@@ -2,11 +2,18 @@
 
 ## Introduction
 
-This repository provides an overview of operating system configuration,
-user lifecycle management, and common administrative tooling used in
-modern IT environments.
+This repository provides an overview of operating system configuration, local diagnostics, user lifecycle management, and common administrative tooling used in modern IT environments.
 
-## Local Software Troubleshooting Tools
+## Local OS Diagnostics and Management Tools
+
+This section focuses on **local Windows software and management tools** commonly used during the **information-gathering and initial diagnosis phase** of the troubleshooting process.
+
+In an IT support or junior network role, these tools may be:
+- Used directly by the engineer, or
+- Used to guide an end user to provide system health information (CPU usage, errors, logs, services, etc.)
+
+---
+
 
 | Tool | Primary Use | When / Why It’s Used |
 |----|----|----|
@@ -33,6 +40,11 @@ modern IT environments.
 | **Task Scheduler** | Run tasks on a schedule or trigger | Used for automation, maintenance tasks, and recurring scripts. |
 | **Microsoft Management Console (MMC)** | Custom console for admin tools | Allows multiple snap-ins (Event Viewer, Disk Management, etc.) in one interface. |
 
+These tools form the foundation of local troubleshooting and system management,
+and are commonly used alongside higher-level configuration frameworks such as
+Group Policy, identity management, and cloud-based administration.
+
+
 ---
 
 They help answer questions such as:
@@ -48,6 +60,22 @@ They help answer questions such as:
 - End users are often guided to **Task Manager, System Information, or Disk Cleanup** for basic diagnostics.
 - Engineers rely more heavily on **Event Viewer, Device Manager, Performance Monitor, and Group Policy**.
 - These tools are commonly used alongside **command-line utilities** and **remote management platforms** in enterprise environments.
+
+# Administrative Platforms & System Management
+
+This section focuses on **higher-level operating system administration,
+identity management, and platform configuration**, rather than
+individual device diagnostics.
+
+These tools and diagrams represent how systems are:
+- Configured and governed at scale
+- Integrated with identity and access controls
+- Managed across both on-prem and cloud environments
+
+They are typically used by administrators and engineers to design,
+maintain, and troubleshoot environments beyond a single endpoint,
+supporting consistent configuration, security, and user lifecycle management.
+
 ## Tools and Technologies
 ![Tools and Technologies](tools-and-technologies.png)
 
@@ -59,3 +87,17 @@ They help answer questions such as:
 
 ## Microsoft 365 Overview
 ![Microsoft 365 Stack](microsoft-365-stack.png)
+
+---
+
+## Projects Showcasing These Skills
+
+The following projects demonstrate practical use of the operating system
+configuration, troubleshooting, and identity concepts covered on this page.
+
+## Active Directory
+
+### [Group Policies](https://github.com/kierannutt123/Group-Policies/blob/main/Group%20Policies.md)
+
+### [File Sharing and Permissions](https://github.com/kierannutt123/ActiveDirectoryFilePermissions/blob/main/Active%20Directory%20File%20Permissions.md)
+
