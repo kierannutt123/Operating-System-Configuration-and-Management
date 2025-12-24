@@ -95,7 +95,13 @@ supporting consistent configuration, security, and user lifecycle management.
 The following projects demonstrate practical use of the operating system
 configuration, troubleshooting, and identity concepts covered on this page.
 
-## Active Directory
+# Active Directory
+
+## Entra ID
+
+## [Identity driven access control](https)
+
+## Windows
 
 ### [Group Policies](https://github.com/kierannutt123/Group-Policies/blob/main/Group%20Policies.md)
 
